@@ -1,0 +1,28 @@
+{
+    "type": "FeatureCollection",
+    "features":[
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.619306441225001, -74.08660375394365]
+            },
+            "properties": {
+                "Modelo": "HM HACEB 0,7 BL",
+                "Marca": "HACEB",
+                "Alto": 24.3,
+                "Ancho": 44.6,
+                "Profundidad": 36,
+                "Capacidad": 20,
+                "Potencia": 1100,
+                "Voltaje": 120,
+                "PrecioDescuento": 299900,
+                "Precio": 381900
+            }
+        }
+        {
+            
+        }
+        
+    ]
+}
