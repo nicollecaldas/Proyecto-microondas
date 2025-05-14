@@ -1,4 +1,4 @@
-var map = L.map('map').setView([4.628108163491138, -74.06593836859484], 20);
+var map = L.map('map').setView([4.628108163491138, -74.06593836859484], 13);
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
@@ -24,9 +24,21 @@ var polygon = L.polygon([
 async function cargarpuntos (){
     var miArchivo= await fetch("microondas.geojson");
 
-    //Coinvertir el contenido a json: objeto js
+    //Convertir el contenido a json: objeto js
     var datos= await miArchivo.json();
+    //Obtener el arreglo de la llave features que es un conjunto de objetos tipo feature
+    let listaFeatures= datos["features"];
+
+    //Obtener la geometria del primer elemento
+
     console.log(datos);
-};
+    for(let i = 0; i<6; i++){
+        console.log(datos["features"][i]);
+        let miscoordenadas = listaFeatures[i]["geometry"]["coordinates"];
+
+        var miMarcador= L.marker(miscoordenadas);
+        miMarcador.addTo(map);
+    }
+}
 
 cargarpuntos();

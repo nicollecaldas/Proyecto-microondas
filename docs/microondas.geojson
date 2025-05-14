@@ -114,6 +114,25 @@
                 "PrecioDescuento": "N/E",
                 "Precio": 689900
         }
+},
+{
+        "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.688939430139815, -74.12316817800262]
+            },
+            "properties": {
+                "Modelo": "N/E",
+                "Marca": "Challenger",
+                "Alto": 29.5,
+                "Ancho": 53.5,
+                "Profundidad": 41,
+                "Capacidad": 20,
+                "Potencia": 1350,
+                "Voltaje": 110,
+                "PrecioDescuento": "N/E",
+                "Precio": 689900
+        }
 }
     ]
 }
