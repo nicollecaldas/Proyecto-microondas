@@ -177,19 +177,19 @@
    "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [4.645899212857016, -74.06444370993053]
+                "coordinates": [4.641606429095139, -74.06220594199883]
             },
             "properties": {
-                "Modelo": "EMDO20S3GSLUG",
-                "Marca": "Electrolux",
-                "Alto": 29.4,
-                "Ancho": 49.6,
-                "Profundidad": 38.9,
-                "Capacidad": 20,
-                "Potencia": "N/E",
-                "Voltaje": 110,
-                "PrecioDescuento": 306764,
-                "Precio": 578800
+                "Modelo": "N/E",
+                "Marca": "IMUSA",
+                "Alto": 31.1,
+                "Ancho": 35.6,
+                "Profundidad": 52,
+                "Capacidad": 19,
+                "Potencia": 1380,
+                "Voltaje": 120,
+                "PrecioDescuento": 399900,
+                "Precio": 569900
         } 
 }
     ]
