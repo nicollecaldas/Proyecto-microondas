@@ -32,7 +32,7 @@ async function cargarpuntos (){
     //Obtener la geometria del primer elemento
 
     console.log(datos);
-    for(let i = 0; i<6; i++){
+    for(let i = 0; i<10; i++){
         console.log(datos["features"][i]);
         let miscoordenadas = listaFeatures[i]["geometry"]["coordinates"];
 
@@ -42,3 +42,4 @@ async function cargarpuntos (){
 }
 
 cargarpuntos();
+
