@@ -119,20 +119,78 @@
         "type": "Feature",
             "geometry": {
                 "type": "Point",
-                "coordinates": [4.688939430139815, -74.12316817800262]
+                "coordinates": [4.6181340722821185, -74.09038275530071]
             },
             "properties": {
-                "Modelo": "N/E",
-                "Marca": "Challenger",
-                "Alto": 29.5,
-                "Ancho": 53.5,
-                "Profundidad": 41,
-                "Capacidad": 20,
-                "Potencia": 1350,
-                "Voltaje": 110,
-                "PrecioDescuento": "N/E",
-                "Precio": 689900
+                "Modelo": "MMDX11S2MG",
+                "Marca": "MIDEA",
+                "Alto": 29,
+                "Ancho": 49.5,
+                "Profundidad": 39.6,
+                "Capacidad": 31,
+                "Potencia": "N/E",
+                "Voltaje": 120,
+                "PrecioDescuento": 409900,
+                "Precio": 639900
         }
+},
+{
+    "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.641172632753868, -74.06587470897628]
+            },
+            "properties": {
+                "Modelo": "MG23DG4524ATCO",
+                "Marca": "SAMSUNG",
+                "Alto": 27.5,
+                "Ancho": 48.9,
+                "Profundidad": 38.4,
+                "Capacidad": 23,
+                "Potencia": 1350,
+                "Voltaje": 120,
+                "PrecioDescuento": 380487,
+                "Precio": 416382
+        }
+
+},
+{
+    "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.645899212857016, -74.06444370993053]
+            },
+            "properties": {
+                "Modelo": "EMDO20S3GSLUG",
+                "Marca": "Electrolux",
+                "Alto": 29.4,
+                "Ancho": 49.6,
+                "Profundidad": 38.9,
+                "Capacidad": 20,
+                "Potencia": "N/E",
+                "Voltaje": 110,
+                "PrecioDescuento": 306764,
+                "Precio": 578800
+        }
+},
+{
+   "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [4.645899212857016, -74.06444370993053]
+            },
+            "properties": {
+                "Modelo": "EMDO20S3GSLUG",
+                "Marca": "Electrolux",
+                "Alto": 29.4,
+                "Ancho": 49.6,
+                "Profundidad": 38.9,
+                "Capacidad": 20,
+                "Potencia": "N/E",
+                "Voltaje": 110,
+                "PrecioDescuento": 306764,
+                "Precio": 578800
+        } 
 }
     ]
 }
